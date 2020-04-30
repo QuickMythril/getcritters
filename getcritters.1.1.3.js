@@ -114,8 +114,8 @@ Charsheet.Generate = async function(msg) {
         character.set("gmnotes", template.gmnotes);
         
         /* Set Images */
-        log(avatar);
-        character.set("avatar", crsheet[0].get("avatar"));
+        // log(avatar);
+        // character.set("avatar", crsheet[0].get("avatar"));
         
         /* Set Player's name */
         createObj("attribute", {
