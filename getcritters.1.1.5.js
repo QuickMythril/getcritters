@@ -139,16 +139,6 @@ Charsheet.Generate = async function(msg) {
             });
         };
         
-        function makeToken(token, n) {
-            createObj("graphic", {
-                name: ability.get("name"),
-                description: ability.get("description"),
-                action: ability.get("action"),
-                istokenaction: ability.get("istokenaction"),
-                _characterid: character.id
-            });
-        };
-        
         sendChat(player, "/me " + template.channelalert + " [Click Here](https://app.roll20.net/vault/import_character) to import when ready.");
 };
 
